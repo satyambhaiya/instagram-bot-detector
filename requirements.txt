@@ -1,0 +1,24 @@
+# ── Core ML ───────────────────────────────────────────────────────────────────
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# ── HTTP Client (async, for Instagram API calls) ──────────────────────────────
+httpx>=0.27.0
+
+# ── Instagram scraper (free, no API key — used by InstaLoaderProvider) ────────
+instaloader>=4.10
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

@@ -1,0 +1,63 @@
+{
+  "input_dim": 27,
+  "hidden": 128,
+  "dropout": 0.3,
+  "feature_cols": [
+    "followers_count",
+    "following_count",
+    "posts_count",
+    "avg_likes_per_post",
+    "avg_comments_per_post",
+    "posts_per_day",
+    "follower_following_ratio",
+    "engagement_rate",
+    "profile_pic",
+    "bio_length",
+    "has_url_in_bio",
+    "is_verified",
+    "is_private",
+    "account_age_days",
+    "username_digit_ratio",
+    "username_length",
+    "night_activity_ratio",
+    "avg_caption_length",
+    "hashtags_per_post",
+    "mentions_per_post",
+    "story_frequency",
+    "reels_ratio",
+    "comment_reply_rate",
+    "unique_commenters_ratio",
+    "likes_comments_ratio",
+    "posting_regularity",
+    "following_to_followers_ratio"
+  ],
+  "log_cols": [
+    "followers_count",
+    "following_count",
+    "posts_count",
+    "avg_likes_per_post",
+    "avg_comments_per_post",
+    "account_age_days",
+    "avg_caption_length",
+    "likes_comments_ratio"
+  ],
+  "label_names": [
+    "Human",
+    "Bot",
+    "Suspicious"
+  ],
+  "test_metrics": {
+    "loss": 0.005491560802325241,
+    "accuracy": 0.9978039353478566,
+    "macro_f1": 0.9974345177153708
+  },
+  "class_weights": [
+    0.9322593212127686,
+    0.8026168942451477,
+    1.467539668083191
+  ],
+  "data_mode": "multiplatform",
+  "train_samples": 53122,
+  "val_samples": 11383,
+  "test_samples": 11384
+}
