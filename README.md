@@ -5,6 +5,13 @@ AI-powered system that classifies social media accounts as **Human**, **Bot**, o
 Built with PyTorch, FastAPI, and Vue.js.
 
 ---
+## Author
+
+Satyam Kumar Thakur
+
+AI-based Instagram Bot Detection System built using Machine Learning, Python, FastAPI, and Data Analysis.
+
+---
 
 ## Architecture
 
