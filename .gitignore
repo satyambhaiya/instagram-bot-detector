@@ -29,8 +29,7 @@ env/
 .coverage
 htmlcov/
 
-# Claude Code
-.claude/
+
 
 # Large real-world datasets (download separately)
 data/real/
@@ -49,5 +48,5 @@ test.csv
 # Jupyter
 .ipynb_checkpoints/
 
-# Logs
+# Logsgit add .
 *.log
